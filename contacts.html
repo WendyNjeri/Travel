@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="logo"></div>
+		<img src="images/Product.jpeg" height="300" width="550" alt="image"><br>
+	</div>
+
+	<div class="top-menu">
+		<ul class="list-menu" >
+			<li><a href="index.html">Home</a>
+			<li><a href="about.html">About us</a>
+			<li><a href="sites.html">Sites</a>
+			<li><a href="pictures.html">gallery</a>
+			<li class="active"><a  href="contacts.html">Contact us</a>
+		</ul>
+	</div>
+
+		<h1>Contact us</h1>
+		<p>You can email us your details about your bookings and any complains/thumbs up about our services. thank you for vivsiting Likachi Vacations</p>
+
+		<div class="container">
+  	<form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Kenya</option>
+      <option value="canada">UK</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+
+</body>
+</html>
